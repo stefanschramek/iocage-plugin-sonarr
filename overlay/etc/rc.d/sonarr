@@ -33,10 +33,10 @@ load_rc_config $name
 : ${sonarr_group:="sonarr"}
 : ${sonarr_data_dir:="/config"}
 
-pidfile="${sonarr_data_dir}/nzbdrone.pid"
+pidfile="${sonarr_data_dir}/sonarr.pid"
 command="/usr/sbin/daemon"
 procname="/usr/local/bin/mono"
-command_args="-f ${procname} /usr/local/share/NzbDrone/NzbDrone.exe --data=${sonarr_data_dir} --nobrowser"
+command_args="-f ${procname} /usr/local/share/Sonarr/Sonarr.exe --data=${sonarr_data_dir} --nobrowser"
 
 start_precmd=sonarr_precmd
 sonarr_precmd() {
