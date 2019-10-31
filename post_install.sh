@@ -1,7 +1,7 @@
 #!/bin/sh
 
 fetch "https://services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux" -o /usr/local/share/tmp.tar.gz
-tar -xzvf /usr/local/share/tmp.tar.gz -C /usr/local/share"
+tar -xzvf /usr/local/share/tmp.tar.gz -C /usr/local/share
 rm /usr/local/share/tmp.tar.gz
 
 pw user add sonarr -c sonarr -u 351 -d /nonexistent -s /usr/bin/nologin
