@@ -1,6 +1,6 @@
 #!/bin/sh
 
-fetch https://services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux -o /usr/local/share
+fetch "https://services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux" -o /usr/local/share
 tar -xzvf /usr/local/share/Sonarr.phantom-develop.*.linux.tar.gz -C /usr/local/share"
 rm /usr/local/share/Sonarr.phantom-develop.*.linux.tar.gz
 
