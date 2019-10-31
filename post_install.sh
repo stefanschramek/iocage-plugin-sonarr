@@ -5,7 +5,7 @@ tar -xzvf /usr/local/share/tmp.tar.gz -C /usr/local/share
 rm /usr/local/share/tmp.tar.gz
 
 pw user add sonarr -c sonarr -u 351 -d /nonexistent -s /usr/bin/nologin
-pw groupadd -n mnt-tvshows -g 1002
+pw groupadd -n media -g 1002
 pw groupmod 1002 -m 351
 
 chmod u+x /etc/rc.d/sonarr
