@@ -11,7 +11,7 @@ iocage fstab -a sonarr3 /mnt/pool-1/multimedia/tvshows /mnt/ nullfs rw 0 0
 ```
 ### Update file ownerships
 ```
-iocage exec sonarr3 chown -R sonarr:sonarr /config
+iocage exec sonarr3 "chown -R sonarr:sonarr /config"
 ```
 ### Start the services
 ```
