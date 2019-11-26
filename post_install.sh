@@ -12,10 +12,9 @@ chmod u+x /etc/rc.d/sonarr
 
 sysrc -f /etc/rc.conf sonarr_enable="YES"
 
-#62991
 chown -R sonarr:sonarr /usr/local/share/Sonarr /config
 
-#we need write permission to be able to write plugins update. #53127
+#Set write permission to be able to write plugins update
 chmod 755 /usr/local/share/Sonarr
 
 # Start the services
