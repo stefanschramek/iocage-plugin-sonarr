@@ -15,5 +15,5 @@ iocage exec jail_name "chown -R sonarr:sonarr /config"
 ```
 ### Start the services
 ```
-iocage exec sonarr3 "service sonarr start"
+iocage exec jail_name "service sonarr start"
 ```
