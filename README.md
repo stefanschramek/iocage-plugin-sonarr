@@ -12,7 +12,7 @@ Don't worry if it says "Could not find a username for this ID"
 5. If files already exist in the dataset, select the "Apply permissions recursively" checkbox.
 6. Click "Save"
 
-Popular Plugin user ID's:
+**Popular Plugin user ID's:**
 ```
 Plex = 972
 Radarr = 352
