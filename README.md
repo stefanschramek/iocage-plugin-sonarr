@@ -29,7 +29,7 @@ iocage exec jail_name "service sonarr stop"
 iocage fstab -a jail_name /mnt/pool-1/apps/sonarr /config nullfs rw 0 0
 iocage fstab -a jail_name /mnt/pool-1/multimedia/tvshows /media/ nullfs rw 0 0
 ```
-### Update file ownerships
+### Update file ownerships (optional)
 ```
 iocage exec jail_name "chown -R sonarr:sonarr /config"
 ```
