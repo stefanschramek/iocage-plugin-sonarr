@@ -6,7 +6,7 @@
 3. Click the "Add ACL Item" button. A new section will appear at the bottom of the list of existing ACL items.
 4. Fill in the following (*note that 351 is the correct user here*):
 
-![ACL Permissions](https://github.com/stefanschramek/iocage-plugin-sonarr/blob/master/acl-permissions.png)
+![ACL Permissions](https://static.ixsystems.co/uploads/2020/02/pasted-image-0-1.png)
 
 Don't worry if it says "Could not find a username for this ID"
 5. If files already exist in the dataset, select the "Apply permissions recursively" checkbox.
