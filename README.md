@@ -14,6 +14,7 @@ Don't worry if it says "Could not find a username for this ID"
 
 **Popular Plugin user ID's:**
 ```
+NZBGet = 504
 Plex = 972
 Radarr = 352
 Sabnzbd = 350
